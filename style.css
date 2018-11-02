@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(http://3.bp.blogspot.com/-JzYn7Xkk5sk/VXhQyQmDW4I/AAAAAAAAXlI/pyCKiQ5UcnU/s1600/digital_coastal_beach_sunset-1920x1080.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    padding: 2em;
+    font-size: 6em;
+    text-align: center;
+    color: #ffff;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+nav{
+    width: 100%;
+}
+ul{
+    list-style: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+li {
+    padding: 2em;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+li:hover{
+    background-color: gray;
+}
